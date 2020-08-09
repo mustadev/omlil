@@ -5,4 +5,17 @@ Description: Child theme for Storefront.
 Author: github.com/mustadev
 Author URI: http://woocommerce.com 
 Template: storefront 
-*/  
+*/ 
+
+.site-branding .site-title a {
+    color: red; 
+}
+
+/* div#page.hfeed.site header#masthead.site-header div.storefront-primary-navigation {
+    display: none;
+} */
+
+.topbar-flex {
+    display: flex;
+    flex-direction: row;
+}
