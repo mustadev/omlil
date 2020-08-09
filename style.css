@@ -15,7 +15,27 @@ Template: storefront
     display: none;
 } */
 
+#topbar {
+    padding: 10px;
+    background-color: black;
+}
+
 .topbar-flex {
     display: flex;
-    flex-direction: row;
+    align-content: center;
+}
+
+.topbar-logo {
+    width: 100%;
+    overflow: hidden;
+}
+
+div#topbar div.col-full div.topbar-flex div.topbar-logo a.custom-logo-link img.custom-logo {
+    width: 100%;
+    max-width: 65px;
+    /* object-fit: contain; */
+}
+
+.topbar-flex .widget_product_search {
+    margin: 0;
 }

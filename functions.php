@@ -7,9 +7,9 @@ function storefront_add_topbar() {
     <div id="topbar">
         <div class="col-full">
             <div class="topbar-flex">
-            <div class="site-branding"> 
-                <?php storefront_site_title_or_logo(); ?>
-            </div>
+                <div class="topbar-logo">
+                    <?php echo get_custom_logo( ); ?>
+                </div>
             <?php storefront_product_search(); ?>
             </div>
               
