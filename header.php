@@ -45,6 +45,8 @@
 		 * @hooked storefront_header_cart                      - 60
 		 * @hooked storefront_primary_navigation_wrapper_close - 68
 		 */
+		remove_action( 'storefront_header', 'storefront_site_branding', 20 );
+		remove_action( 'storefront_header', 'storefront_product_search', 40);
 		do_action( 'storefront_header' );
 		?>
 
