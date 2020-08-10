@@ -98,3 +98,12 @@ div#page.hfeed.site header#masthead.site-header {
     padding: 0;
 }
 /* Header CSS END */
+
+
+/* HomePage CSS Begin */
+
+/* remove padding */
+div#page.hfeed.site div#content.site-content div.col-full div#primary.content-area main#main.site-main{
+    margin: 0;
+    padding: 0;
+}
