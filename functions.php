@@ -4,18 +4,34 @@
  */
 function storefront_add_topbar() {
     ?>
-    <div id="topbar">
-        <div class="col-full">
-            <div class="topbar-flex">
-                <div class="topbar-logo">
-                    <?php echo get_custom_logo( ); ?>
-                </div>
-            <?php storefront_product_search(); ?>
-            </div>
-              
-        </div>
-    </div>
-    <?php
-}
-add_action( 'storefront_before_header', 'storefront_add_topbar' );
+    <div class="topbar">
+            <div class="topbar__logo">
+                <!-- <img class="topbar__logo__img" src="logo.png" alt="Logo"> -->
+                <?php echo get_custom_logo( ); ?>
 
+            </div>
+            <div class="topbar__search">
+                <!-- <form action="">    
+                    <input type="search" name="search" id="">
+                </form> -->
+                <?php storefront_product_search(); ?>
+            </div>
+            <div class="topbar__nav">
+                <div class="topbar__nav__item">
+                    <span class="topbar__nav__item__text" >Upload</span>
+                    <i class="fas fa-upload"></i>
+                </div>
+                <div class="topbar__nav__item">
+                    <span class="topbar__nav__item__text">Card</span>
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="topbar__nav__item">
+                    <span class="topbar__nav__item__text">Account</span>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <?php 
+}
+
+add_action( 'storefront_before_header', 'storefront_add_topbar' );
