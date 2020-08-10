@@ -90,5 +90,11 @@ div.topbar div.topbar__search div.site-search div.widget.woocommerce.widget_prod
         margin: auto ;
     }
 } */
-
 /* My TopBar Css END */
+
+/* Header CSS BEGIN */
+div#page.hfeed.site header#masthead.site-header {
+    margin: 0;
+    padding: 0;
+}
+/* Header CSS END */
