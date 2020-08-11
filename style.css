@@ -107,3 +107,16 @@ div#page.hfeed.site div#content.site-content div.col-full div#primary.content-ar
     margin: 0;
     padding: 0;
 }
+
+/* HomePage CSS End */
+
+/* Social Media Icons Css BEGIN */
+.social {
+    display: flex;
+}
+
+.social__item {
+    padding: 5px;
+    margin: 5px;
+}
+/* Social Media Icons Css END */
