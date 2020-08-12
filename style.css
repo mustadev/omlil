@@ -20,7 +20,6 @@ Template: storefront
     /* height: 50px; */
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: black;
 }
 
 .topbar__logo {
