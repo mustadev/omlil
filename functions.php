@@ -4,8 +4,6 @@ require 'inc/omlil-template-functions.php';
 require 'inc/omlil-template-hooks.php';
 
 
-add_action( 'after_setup_theme', 'register_topbar_menu' );
-
 
 
 // overide credit function
