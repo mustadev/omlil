@@ -38,3 +38,18 @@ function register_topbar_menu() {
         ) 
     );
 }
+
+
+
+/**
+ * Omlil Customize Css
+ */
+
+function omlil_customize_css()
+{
+    ?>
+         <style type="text/css">
+             .topbar { background-color: <?php echo get_theme_mod('topbar_backgroundcolor', '#000000'); ?>; }
+         </style>
+    <?php
+}

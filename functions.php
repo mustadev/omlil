@@ -62,15 +62,4 @@ function omlil_customize_register( $wp_customize ) {
     ) ) );
     
  }
- add_action( 'customize_register', 'omlil_customize_register' );
-
-
- function omlil_customize_css()
-{
-    ?>
-         <style type="text/css">
-             .topbar { background-color: <?php echo get_theme_mod('topbar_backgroundcolor', '#000000'); ?>; }
-         </style>
-    <?php
-}
-add_action( 'wp_head', 'omlil_customize_css');
+add_action( 'customize_register', 'omlil_customize_register' );
