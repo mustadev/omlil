@@ -2,6 +2,7 @@
 
 /**
  * Adds a top bar to Storefront, before the header.
+ * @since  1.0.0
  */
 function storefront_add_topbar() {
     ?>
@@ -29,7 +30,7 @@ function storefront_add_topbar() {
 
 /**
  * Regester TopBar Menu
- * 
+ * @since  1.0.0
  */
 function register_topbar_menu() {
     register_nav_menus( 
@@ -43,6 +44,7 @@ function register_topbar_menu() {
 
 /**
  * Omlil Customize Css
+ * @since  1.0.0
  */
 
 function omlil_customize_css()
