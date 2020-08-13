@@ -26,3 +26,15 @@ function storefront_add_topbar() {
         </div>
         <?php 
 }
+
+/**
+ * Regester TopBar Menu
+ * 
+ */
+function register_topbar_menu() {
+    register_nav_menus( 
+        array(
+        'topbar' => __( 'TopBar Menu', 'omlil' )
+        ) 
+    );
+}

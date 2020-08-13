@@ -3,13 +3,7 @@
 require 'inc/omlil-template-functions.php';
 require 'inc/omlil-template-hooks.php';
 
-function register_topbar_menu() {
-    register_nav_menus( 
-        array(
-        'topbar' => __( 'TopBar Menu', 'omlil' )
-        ) 
-    );
-}
+
 add_action( 'after_setup_theme', 'register_topbar_menu' );
 
 
