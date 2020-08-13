@@ -1,7 +1,9 @@
 <?php
 
 require 'inc/omlil-template-functions.php';
+require 'inc/omlil-template-functions-overrides.php';
 require 'inc/omlil-template-hooks.php';
+
 
 
 
